@@ -1,8 +1,8 @@
-/* CUSTOM FONT */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
 
-/* GENERAL */
+
 
 body {
   font-family: "Poppins", sans-serif;
@@ -119,7 +119,7 @@ p {
   transform: rotate(45deg) scale(1.05);
 }
 
-/* TOP LEFT CORNER */
+
 
 #grid__tl__btn {
   top: -11.5rem;
