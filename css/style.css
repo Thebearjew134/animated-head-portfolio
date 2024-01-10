@@ -27,6 +27,8 @@ p {
   margin: 0 0.5rem;
 }
 
+
+
 #hero {
   position: absolute;
   top: 50%;
@@ -117,6 +119,8 @@ p {
   transform: rotate(45deg) scale(1.05);
 }
 
+
+
 #grid__tl__btn {
   top: -11.5rem;
   left: -11.5rem;
@@ -127,7 +131,7 @@ p {
   width: 30vw;
   top: 10vh;
   left: 0;
-  /*transform: translateX(-100vw) translateY(-100vh); */
+  transform: translateX(-100vw) translateY(-100vh);
 }
 
 article {
@@ -169,4 +173,12 @@ article p {
     color: var(--text);
     text-align: left;
     margin: 0 1rem;
+}
+
+
+
+#grid__tr__btn {
+    top: -11.5rem;
+    right: -11.5rem;
+    transform: rotate(45deg);
 }
