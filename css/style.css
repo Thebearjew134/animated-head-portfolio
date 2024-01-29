@@ -99,6 +99,22 @@ p {
 
 #grid__tl__btn,
 #grid__tr__btn {
-    padding-bottom: 00.5rem;
+    padding-bottom: 0.5rem;
     align-items: flex-end;
+}
+
+#grid__bl__btn,
+#grid__br__btn {
+    padding-bottom: 0.5rem;
+}
+
+#grid__tl__btn:active,
+#grid__br__btn:active {
+    transform: rotate(-45deg) scale(1.05);
+}
+
+
+
+#grid__tl__btn {
+    transform: rotate(-45deg);
 }
