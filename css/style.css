@@ -94,5 +94,11 @@ p {
     position: absolute;
     text-align: center;
     transition: transform 0.3s ease-in-out;
+    color: var(--text-alt);
 }
 
+#grid__tl__btn,
+#grid__tr__btn {
+    padding-bottom: 00.5rem;
+    align-items: flex-end;
+}
